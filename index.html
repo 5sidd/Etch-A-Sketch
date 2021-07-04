@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Etch-A-Sketch </title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h1> Etch-A-Sketch </h1>
+        <div class = "container">
+        </div>
+        <div class = "choose">
+            <input type = "range" id = "dimensions" name = "dimensions" min = "1" max = "60">
+            <label for = "size" id = "size"> Size: </label>
+            <div class = "buttons">
+                <button id = "change-size" onclick = "resetGrid()"> Change Size </button>
+                <button id = "clear" onclick = "resetGrid()"> Clear All </button>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>

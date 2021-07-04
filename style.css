@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: solid;
+    border-width: 5px;
+    margin: auto;
+    height: 700px;
+    width: 700px;
+    display: grid;
+}
+
+#change-size {
+    margin-top: 30px;
+    width: 100px;
+}
+
+#size {
+    display: block;
+    text-align: center;
+}
+
+#clear {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#dimensions {
+    width: 205px;
+}
+
+.choose {
+    margin: 0;
+    margin-left: 125px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
